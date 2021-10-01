@@ -1,0 +1,636 @@
+@media (min-width:1340.01px){
+  body{
+    margin:0;
+    padding:0;
+  }
+  h1,h2{
+    font-size: bold;
+    font-family: verdana,serif,arial;
+    text-align: center;
+    color:#FF7777;
+  }
+
+  p{
+    text-align: center;
+    font-size: bold;
+    font-family: verdana,Arial;
+      color:#FF7777;
+    display: block;
+    overflow: auto;
+  }
+  nav{
+    text-align: center;
+    float:left;
+    width:100%;
+    height:4.5vw;
+    border: 4px solid #FE8F8F;
+    border-radius: 15px;
+  background-color:#FF7777;
+  }
+  li{
+    list-style-type: none;
+    display: inline-block;
+    background: #B61919;
+    border:2px solid lightgrey;
+    border-radius: 10px;
+    padding: 1vh 2vw;
+    margin: 2px 4px;
+  }
+  li:hover{
+    color:white;
+    background: #FF6B6B;
+    padding: 2vh 3vw;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    font-family: verdana,arial;
+  }
+  a:hover{
+    color:white;
+    font-size: 1rem;
+  }
+
+  button{
+    color:white;
+    background: #B61919;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    position: relative;;
+    left:41vw;
+    display: block;
+    box-shadow: 10px 10px 20px #FF7777;
+
+  }
+  button:hover{
+    background: #FF7878;
+    color:#F9F3DF;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }
+
+  /* Section and Input div */
+  .section{
+  margin-bottom:30px;
+  }
+  .input{
+    text-decoration: none;
+    text-shadow: 5px 5px 10px #FF7777;
+
+  }
+  .take_input{
+    padding: 1% 2%;
+  }
+  /* fontawesome */
+  .fa-heart{
+    color:#FF7878;
+  }
+  .fa-heart:hover{
+    color:#B61919;
+  }
+  .my-icon{
+    text-align: center;
+    color: #FF7878;
+    padding: 5px 20px;
+    position: relative;
+    left:25%;
+    right:auto;
+
+  }
+  /* main and give give_output */
+
+  main{
+    background-color:#FF7777;
+    text-align: center;
+    padding: 5vh  10vw;
+
+  }
+  .give_output{
+    background: transparent;
+  }
+  .js{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* My footer */
+  .footer{
+    padding: 10vh 12vw;
+  }
+}
+
+
+
+/* For laptops and desktop */
+@media (min-width:1020px) and (max-width:1340px) {
+  body{
+    margin:0;
+    padding:0;
+  }
+  h1,h2{
+    font-size: bold;
+    font-family: verdana,serif,arial;
+    text-align: center;
+    color:#FF7777;
+  }
+
+  p{
+    text-align: center;
+    font-size: bold;
+    font-family: verdana,Arial;
+      color:#FF7777;
+    display: block;
+    overflow: auto;
+  }
+  nav{
+    text-align: center;
+    float:left;
+    width:100%;
+    height:6vw;
+    border: 4px solid #FE8F8F;
+    border-radius: 15px;
+  background-color:#FF7777;
+  }
+  li{
+    list-style-type: none;
+    display: inline-block;
+    background: #B61919;
+    border:2px solid lightgrey;
+    border-radius: 10px;
+    padding: 1vh 2vw;
+    margin: 2px 4px;
+  }
+  li:hover{
+    color:white;
+    background: #FF6B6B;
+    padding: 2vh 3vw;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    font-family: verdana,arial;
+  }
+  a:hover{
+    color:white;
+    font-size: 1rem;
+  }
+
+  button{
+    color:white;
+    background: #B61919;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    position: relative;;
+    left:41vw;
+    display: block;
+    box-shadow: 10px 10px 20px #FF7777;
+
+  }
+  button:hover{
+    background: #FF7878;
+    color:#F9F3DF;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }
+
+  /* Section and Input div */
+  .section{
+  margin-bottom:30px;
+  }
+  .input{
+    text-decoration: none;
+    text-shadow: 5px 5px 10px #FF7777;
+
+  }
+  .take_input{
+    padding: 1% 2%;
+  }
+  /* fontawesome */
+  .fa-heart{
+    color:#FF7878;
+  }
+  .fa-heart:hover{
+    color:#B61919;
+  }
+  .my-icon{
+    text-align: center;
+    color: #FF7878;
+    padding: 5px 20px;
+    position: relative;
+    left:25%;
+    right:auto;
+
+  }
+  /* main and give give_output */
+
+  main{
+    background-color:#FF7777;
+    text-align: center;
+    padding: 5vh  10vw;
+
+  }
+  .give_output{
+    background: transparent;
+  }
+  .js{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* My footer */
+  .footer{
+    padding: 10vh 12vw;
+  }
+}
+
+
+/* For tablets and small laptops */
+
+
+@media (max-width:1079px) and (min-width:720px) {
+body{
+  margin:0;
+  padding:0;
+}
+h1,h2{
+  font-size: bold;
+  font-family: verdana,serif,arial;
+  text-align: center;
+  color:#FF7777;
+}
+
+p{
+  text-align: center;
+  font-size: bold;
+  font-family: verdana,Arial;
+    color:#FF7777;
+  display: block;
+  overflow: auto;
+}
+nav{
+  text-align: center;
+  float:left;
+  width:100%;
+  height:10vw;
+  border: 4px solid #FE8F8F;
+  border-radius: 15px;
+background-color:#FF7777;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+  background: #B61919;
+  border:2px solid lightgrey;
+  border-radius: 10px;
+  padding: 1vh 2vw;
+  margin: 2px 4px;
+}
+li:hover{
+  color:white;
+  background: #FF6B6B;
+  padding: 2vh 3vw;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-family: verdana,arial;
+}
+a:hover{
+  color:white;
+  font-size: 1rem;
+}
+
+button{
+  color:white;
+  background: #B61919;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid lightgrey;
+  position: relative;;
+  left:41vw;
+  display: block;
+  box-shadow: 10px 10px 20px #FF7777;
+
+}
+button:hover{
+  background: #FF7878;
+  color:#F9F3DF;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+/* Section and Input div */
+.section{
+margin-bottom:30px;
+}
+.input{
+  text-decoration: none;
+  text-shadow: 5px 5px 10px #FF7777;
+
+}
+.take_input{
+  padding: 1% 2%;
+}
+/* fontawesome */
+.fa-heart{
+  color:#FF7878;
+}
+.fa-heart:hover{
+  color:#B61919;
+}
+.my-icon{
+  text-align: center;
+  color: #FF7878;
+  padding: 5px 20px;
+  position: relative;
+  left:25%;
+  right:auto;
+
+}
+/* main and give give_output */
+
+main{
+  background-color:#FF7777;
+  text-align: center;
+  padding: 5vh  10vw;
+
+}
+.give_output{
+  background: transparent;
+}
+.js{
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* My footer */
+.footer{
+  padding: 10vh 12vw;
+}
+}
+
+/* For Tablets */
+@media (max-width:719.99px) and (min-width:660px){
+  body{
+    margin:0;
+    padding:0;
+  }
+  h1,h2{
+    font-size: bold;
+    font-family: verdana,serif,arial;
+    text-align: center;
+    color:#FF7777;
+  }
+
+  p{
+    text-align: center;
+    font-size: bold;
+    font-family: verdana,Arial;
+      color:#FF7777;
+    display: block;
+    overflow: auto;
+  }
+  nav{
+    text-align: center;
+    float:left;
+    width:100%;
+    height:10vw;
+    border: 4px solid #FE8F8F;
+    border-radius: 15px;
+  background-color:#FF7777;
+  }
+  li{
+    list-style-type: none;
+    display: inline-block;
+    background: #B61919;
+    border:2px solid lightgrey;
+    border-radius: 10px;
+    padding: 1vh 2vw;
+    margin: 2px 4px;
+  }
+  li:hover{
+    color:white;
+    background: #FF6B6B;
+    padding: 2vh 3vw;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    font-family: verdana,arial;
+  }
+  a:hover{
+    color:white;
+    font-size: 1rem;
+  }
+
+  button{
+    color:white;
+    background: #B61919;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    position: relative;;
+    left:41vw;
+    display: block;
+    box-shadow: 10px 10px 20px #FF7777;
+
+  }
+  button:hover{
+    background: #FF7878;
+    color:#F9F3DF;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }
+
+  /* Section and Input div */
+  .section{
+  margin-bottom:30px;
+  }
+  .input{
+    text-decoration: none;
+    text-shadow: 5px 5px 10px #FF7777;
+
+  }
+  .take_input{
+    padding: 1% 2%;
+  }
+  /* fontawesome */
+  .fa-heart{
+    color:#FF7878;
+  }
+  .fa-heart:hover{
+    color:#B61919;
+  }
+  .my-icon{
+    text-align: center;
+    color: #FF7878;
+    padding: 5px 20px;
+    position: relative;
+    left:25%;
+    right:auto;
+
+  }
+  /* main and give give_output */
+
+  main{
+    background-color:#FF7777;
+    text-align: center;
+    padding: 5vh  10vw;
+
+  }
+  .give_output{
+    background: transparent;
+  }
+  .js{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* My footer */
+  .footer{
+    padding: 10vh 12vw;
+  }
+
+}
+
+/* For small */
+/* Mobiles */
+
+@media(max-width:659.99px) {
+  body{
+    margin:0;
+    padding:0;
+  }
+  h1,h2{
+    font-size: bold;
+    font-family: verdana,serif,arial;
+    text-align: center;
+    color:#FF7777;
+  }
+
+  p{
+    text-align: center;
+    font-size: bold;
+    font-family: verdana,Arial;
+      color:#FF7777;
+    display: block;
+    overflow: auto;
+  }
+  nav{
+    text-align: center;
+    float:left;
+    width:100%;
+    height:20vw;
+    border: 4px solid #FE8F8F;
+    border-radius: 15px;
+  background-color:#FF7777;
+  }
+  li{
+    list-style-type: none;
+    display: inline-block;
+    background: #B61919;
+    border:2px solid lightgrey;
+    border-radius: 10px;
+    padding: 1vh 2vw;
+    margin: 2px 4px;
+  }
+  li:hover{
+    color:white;
+    background: #FF6B6B;
+    padding: 2vh 3vw;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    font-family: verdana,arial;
+  }
+  a:hover{
+    color:white;
+    font-size: 1rem;
+  }
+
+  button{
+    color:white;
+    background: #B61919;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    position: relative;;
+    left:41vw;
+    display: block;
+    box-shadow: 10px 10px 20px #FF7777;
+
+  }
+  button:hover{
+    background: #FF7878;
+    color:#F9F3DF;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }
+
+  /* Section and Input div */
+  .section{
+  margin-bottom:30px;
+  }
+  .input{
+    text-decoration: none;
+    text-shadow: 5px 5px 10px #FF7777;
+
+  }
+  .take_input{
+    padding: 1% 2%;
+  }
+  /* fontawesome */
+  .fa-heart{
+    color:#FF7878;
+  }
+  .fa-heart:hover{
+    color:#B61919;
+  }
+  .my-icon{
+    text-align: center;
+    color: #FF7878;
+    padding: 5px 20px;
+    position: relative;
+    left:25%;
+    right:auto;
+
+  }
+  /* main and give give_output */
+
+  main{
+    background-color:#FF7777;
+    text-align: center;
+    padding: 5vh  10vw;
+
+  }
+  .give_output{
+    background: transparent;
+  }
+  .js{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* My footer */
+  .footer{
+    padding: 10vh 12vw;
+  }
+}

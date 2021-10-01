@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Love calculator</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font awesome Cdn link -->
+    <script src="https://use.fontawesome.com/7b9f16e4cd.js"></script>
+  </head>
+  <body>
+<header>
+  <h1><i class="fa fa-users" aria-hidden="true"></i>Love Birds</h1>
+</header>
+<nav>
+  <ul>
+    <a href=""><li>Home</li></a>
+    <a><li>Love by name</li></a>
+    <a><li>Love by age</li></a>
+    <a><li>Contact Us</li></a>
+  </ul>
+</nav>
+
+<section class="section" content="">
+<h2 class="input">love calculator</h2>
+<p class="input">Lets check Your Love</p>
+
+<div class="take_input">
+  <p>Your Age :  <label for="age"><input type="number" name="age1" id="age1" value=""></p></label>
+  <p>Lover's age:  <label for="age">   <input type="number" name="age2" id="age2" value=""></p></label>
+
+
+  <button type="submit" id="btn" name="button"
+  onclick="love(document.getElementById('age1').value,document.getElementById('age2').value)">
+  <i class="fa fa-heart" aria-hidden="true"></i>
+  Caclulate Love
+  <i class="fa fa-heart" aria-hidden="true"></i>
+</button>
+
+</div>
+</section>
+
+<main>
+
+<div class="give_output">
+  <p class="js" >Your love percentage :
+    <span>
+      <p class="js"id="main-p">_❤❤❤❤Here 😉***</p>
+    </span></p>
+</div>
+
+</main>
+<footer class="footer">
+  <i class="fa my-icon fa-copyright" aria-hidden="true">Ashish Rajput</i>
+<i class="fa my-icon fa-facebook-square" aria-hidden="true">@Facebook</i>
+<i class="fa my-icon fa-instagram" aria-hidden="true">@Instagram</i>
+</footer>
+<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
