@@ -6,11 +6,30 @@
 
     <title>Love calculator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="loader.css">
 
     <!-- Font awesome Cdn link -->
     <script src="https://use.fontawesome.com/7b9f16e4cd.js"></script>
   </head>
   <body>
+    <!-- Preloader for website -->
+    <div class="loader-wrapper" id="load-1">
+      <span class="loader-1">
+        <span class="loader-2">
+        </span>
+      </span>
+      <h1 class="h1-loader">We Are loading . . . .</h1>
+    </div>
+    
+    <!-- Script for preloader -->
+    
+    <script>
+window.onload = function() {
+  var e = document.querySelector('.loader-wrapper');
+  e.style.display = "none";
+  console.log(e);
+}
+</script>
 <header>
   <h1><i class="fa fa-users" aria-hidden="true"></i>Love Birds</h1>
 </header>
