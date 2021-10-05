@@ -126,6 +126,7 @@
 
 
 /* For laptops and desktop */
+
 @media (min-width:1020px) and (max-width:1340px) {
   body{
     margin:0;
